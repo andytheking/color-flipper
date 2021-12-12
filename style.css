@@ -17,6 +17,7 @@ a:link {
   text-decoration: none;
 }
 
+
 ul {
   list-style: none;
   margin: 0;
@@ -36,8 +37,6 @@ nav {
   display: flex;
   align-content: space-around;
   align-self: auto;
-  
-
 }
 
 .nav-center {
@@ -48,4 +47,81 @@ nav {
 
 .nav-links {
   color: black;
+}
+
+main {
+  display: flex;
+  /* width: 10%; */
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  /* width: 10%; */
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 10% 41%; */
+  /* border-radius: 6px; */
+  /* color: whitesmoke; */
+}
+
+h2 {
+  display: flex;
+  font-size: larger;
+  font-weight: bold;
+  align-content: center;
+  justify-content: center;
+  margin: 13% 37% 2% 37%;
+  background-color: rgb(19, 0, 48);
+  border-radius: 6px;
+  color: whitesmoke;
+  padding: 1%;
+}
+
+/* .color {
+  font-size: larger;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(19, 0, 48);
+  padding: 1%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+} */
+
+button {
+  background-color: rgb(19, 0, 48);
+  color: whitesmoke;
+  border-radius: 6px;
+  border-style: none;
+  margin: auto;
+  padding: 10px 8px;
+  font-size: 11px;
+  letter-spacing: 5px;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-transform:uppercase;
+}
+
+#btn {
+  display: flex;
+  width: 10%;
+  align-content: center;
+  justify-content: center;
+  text-transform:uppercase;
+  
+}
+
+#btn .btn .btn-hero {
+  display: flex;
+  width: 10%;
+  align-content: center;
+  justify-content: center;
+  text-transform:uppercase;
+  color: whitesmoke;
 }

@@ -96,10 +96,13 @@ h2 {
 } */
 
 button {
-  background-color: rgb(19, 0, 48);
-  color: whitesmoke;
+  /* background-color: rgb(19, 0, 48); */
+  /* color: whitesmoke; */
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
   border-radius: 6px;
-  border-style: none;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
   margin: auto;
   padding: 10px 8px;
   font-size: 11px;
@@ -126,5 +129,6 @@ button {
   align-content: center;
   justify-content: center;
   text-transform:uppercase;
-  color: whitesmoke;
+  /* color: whitesmoke; */
+  color: black;
 }
